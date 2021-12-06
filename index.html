@@ -55,7 +55,7 @@
             zoomControl:true, maxZoom:21, minZoom:1
         }).fitBounds([[20.60193503147264,-102.51855918712968],[20.604363481351832,-102.51545522890721]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<img src="images/logo.jpeg" width="400">');
+        map.attributionControl.setPrefix('<img src="data/logo.jpeg" width="400">');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         L.control.locate({locateOptions: {maxZoom: 19}}).addTo(map);
         var measureControl = new L.Control.Measure({
